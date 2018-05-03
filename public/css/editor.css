@@ -1,0 +1,45 @@
+
+body {
+  background: rgb(236, 240, 241);
+}
+
+.navbar {
+  border-radius: 0px !important;
+  margin-bottom: 15px !important;
+}
+
+.before {
+  float: left;
+  margin-left:2%;
+  width: 47%;
+  resize: none;
+}
+
+.after {
+  float: right;
+  margin-right:2%;
+  width: 47%;
+  resize: none;
+
+  overflow: scroll;
+}
+
+h1 {
+  font-size: 32px !important;
+}
+
+h2 {
+  font-size: 24px !important;
+}
+
+h3 {
+  font-size: 18px !important;
+}
+
+h3 {
+  font-size: 16px !important;
+}
+
+li {
+  margin-left: 30px;
+}
