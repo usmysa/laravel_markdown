@@ -13,6 +13,12 @@ var regexp = function(line){
   if(line.match(/^- (.*)$/)) {
     return '<li>' + line.match(/^- (.*)$/)[1] + '</li>';
   }
+
+  //　数値
+  if(line.match(/^(\d)\. (.*)$/)) {
+    return '<div class="num"><b>' + line.match(/^(\d)\. (.*)$/)[1] + '</b>.　' + line.match(/^(\d)\. (.*)$/)[2] + '</div>';
+  }
+
   return line + '<br>';
 }
 
